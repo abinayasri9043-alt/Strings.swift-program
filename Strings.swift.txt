@@ -1,0 +1,42 @@
+var firstName: String = "Abinayasri"
+var lastName: String = "M"
+print("First Name:", firstName)
+print("Last Name:", lastName)
+// Combine two strings
+var fullName = firstName + " " + lastName
+print("Full Name:", fullName)
+// Find the length of a string
+print("Name Length:", fullName.count)
+// Convert to uppercase
+print("Uppercase:", fullName.uppercased())
+// Convert to lowercase
+print("Lowercase:", fullName.lowercased())
+
+let s1 = "Hello"
+let s2 = "Swift"
+print(s1 + " " + s2)
+print("\(s1), \(s2)!")
+let word = "Swift"
+print(word.count)
+print(s1.isEmpty
+
+let age = 5
+print("Age: \(age)")          
+let text = "You are " + String(age)
+print(text)
+let pi = 3.14
+print("pi = \(pi)")
+
+let s1 = "123"
+let n1 = Int(s1)          
+print(n1 ?? 0)
+let s2 = "abc"
+let n2 = Int(s2)           
+print(n2 == nil)
+
+let e1 = "é"
+let e2 = "e\u{301}"   
+print(e1 == e2)
+print(e2)
+
+
